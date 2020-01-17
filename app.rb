@@ -22,7 +22,7 @@ class App < Sinatra::Base
 
     until @number == 0
       "#{@phrase}"
-      @number-1
+      @number-1 unless @number == 0
     end
 
   end
