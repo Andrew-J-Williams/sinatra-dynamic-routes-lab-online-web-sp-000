@@ -24,6 +24,7 @@ class App < Sinatra::Base
 
     while n < @number
 
+    end
   end
 
 end
