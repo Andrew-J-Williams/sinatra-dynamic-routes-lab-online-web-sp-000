@@ -22,7 +22,7 @@ class App < Sinatra::Base
 
     @number.times do |phrase|
       phrase = @phrase
-      puts phrase
+      puts "#{phrase}"
     end
   end
 
