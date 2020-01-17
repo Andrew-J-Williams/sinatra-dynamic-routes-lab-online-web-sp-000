@@ -22,6 +22,8 @@ class App < Sinatra::Base
 
     until @number == 0
 
+    end
+
   end
 
 end
