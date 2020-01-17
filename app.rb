@@ -16,4 +16,6 @@ class App < Sinatra::Base
     "#{@number**2}"
   end
 
+  
+
 end
