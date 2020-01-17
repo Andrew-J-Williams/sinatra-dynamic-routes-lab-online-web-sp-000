@@ -47,7 +47,7 @@ class App < Sinatra::Base
     elsif @operation == "divide"
       "#{@num1/@num2}"
     else
-
+      "#{@num1} and #{@num2} were not given a valid operator"
     end
 
   end
